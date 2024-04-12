@@ -1,0 +1,24 @@
+﻿<Window x:Class="PraktikaVoviy4.CreateMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PraktikaVoviy4"
+        mc:Ignorable="d"
+        Title="CreateMenu" Height="450" Width="400">
+    <Grid>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Margin="129,72,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AgentId" HorizontalAlignment="Left" Margin="129,143,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="INN" HorizontalAlignment="Left" Margin="129,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="Phone" HorizontalAlignment="Left" Margin="129,269,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Наименование" HorizontalAlignment="Left" Margin="36,64,0,0" VerticalAlignment="Top"/>
+        <Label Content="Инн" HorizontalAlignment="Left" Margin="66,199,0,0" VerticalAlignment="Top"/>
+        <Label Content="idAgent" HorizontalAlignment="Left" Margin="48,139,0,0" VerticalAlignment="Top"/>
+        <Label Content="Номер Телефона" HorizontalAlignment="Left" Margin="25,265,0,0" VerticalAlignment="Top"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="161,340,0,0" VerticalAlignment="Top" Click="ButtonClickAdd"/>
+        <TextBox x:Name="Priority" HorizontalAlignment="Left" Margin="129,310,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Приоритетность" HorizontalAlignment="Left" Margin="24,306,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Artikul" HorizontalAlignment="Left" Margin="129,37,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Артикул" HorizontalAlignment="Left" Margin="52,33,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
